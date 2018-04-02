@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+   <h1> Etch-A-Sketch </h1>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+  <meta charset="utf-8"/>
+  <title>Sketch Pad</title>
+</head>
+<body>
+	 
+<div id="container">
+</div>
+<div id= "buttons">
+    <button id= "black" class="colorButtons" type="button">Black</button>
+    <button id= "blue" class="colorButtons" type="button">Blue</button>
+    <button id= "orange" class="colorButtons" type="button">Orange</button>
+    <button id= "random" class="colorButtons" type="button">Random</button>
+    <button id= "reset" class="colorButtons" type="button">Reset Grid</button>
+</div>
+<div id= "gridButtons" class = "vertical">
+    <input class="makeGrids" type="button" onclick="makeGrid(16)" value="Grid 16x16">
+    <input class="makeGrids" type="button" onclick="makeGrid(32)" value="Grid 32x32">
+    <input class="makeGrids" type="button" onclick="makeGrid(48)" value="Grid 48x48">
+    <button id= "sixtyFourGrid" class="makeGrids" type="button">Grid 64x64</button>
+</div>
+    <script src="scripts.js"></script>
+</body>
+</html> 
